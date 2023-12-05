@@ -70,12 +70,12 @@ The project structure follows common Django conventions:
    git clone https://github.com/omkarsutar1255/My-Django-Projects.git
 
 
-cd vendor-management-system
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
+2. `cd vendor-management-system`
+3. `python -m venv venv`
+4. `venv\Scripts\activate`
+5. `pip install -r requirements.txt`
+6. `python manage.py migrate`
+7. `python manage.py runserver`
 
 The API will be accessible at http://127.0.0.1:8000/.
 

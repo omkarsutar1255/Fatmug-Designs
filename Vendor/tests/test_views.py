@@ -345,7 +345,6 @@ class PurchaseOrderDataAPITests(TestCase):
         self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertTrue(response.data['status'])
         self.assertEqual(response.data['message'], 'Purchase order acknowledged')
-        self.assertEqual()
 
         # TODO: After Acknowledgement
         # Negative Testing - Purchase Order already acknowledged
