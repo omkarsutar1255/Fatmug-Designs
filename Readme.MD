@@ -77,17 +77,8 @@ The project structure follows common Django conventions:
 6. `python manage.py migrate`
 7. `python manage.py runserver`
 
-The API will be accessible at http://127.0.0.1:8000/.
+The API will be accessible at `http://127.0.0.1:8000/`.
 
 API Documentation
-API documentation is available in the Django admin interface.
-Access the admin interface at http://127.0.0.1:8000/admin/.
-Contributing
-Feel free to contribute to the development of this project. Please follow the contribution guidelines.
-
-License
-This project is licensed under the MIT License.
-
-Happy coding!
-
-Replace placeholders such as `yourusername`, `vendor-management-system`, and URLs with your actual project details. Additionally, you can include sections on database setup, deployment instructions, and any other relevant information for contributors and users.
+API documentation is available `https://documenter.getpostman.com/view/28628748/2s9YeLYpWZ`.
+Access the admin interface at `http://127.0.0.1:8000/admin/`.
